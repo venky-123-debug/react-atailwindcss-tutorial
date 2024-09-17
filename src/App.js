@@ -1,7 +1,11 @@
+import Home from "./components/home";
+import Navbar from "./components/navbar";
+
 export default function App() {
   return (
-    <h1 className="text-3xl text-red-500 font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <div className="bg-black flex flex-col gap-12 w-screen h-screen overflow-hidden">
+      <Navbar />
+      <Home />
+    </div>
+  );
 }
