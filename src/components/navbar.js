@@ -1,3 +1,5 @@
+import "../index.css"
+
 const Navbar = () => {
   return (
     <nav className="h-20 flex select-none items-center justify-between px-20 bg-blue-500 text-white">

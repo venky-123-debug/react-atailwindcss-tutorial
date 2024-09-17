@@ -10,4 +10,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.App {
+  text-align: center;
+}
+
+.links {
+  color: white;
+  padding: 6px 5px;
+  border-radius: 6px;
+  background-color: red;
+}
+.links:hover {
+  background-color: blue;
+}
+
 
